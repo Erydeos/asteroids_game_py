@@ -1,0 +1,4 @@
+Start up
+source venv/bin/activate
+nix-shell
+uv run main.py
