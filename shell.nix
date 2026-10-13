@@ -19,5 +19,4 @@ pkgs.mkShell {
     pkgs.libXxf86vm
   ];
 
-  UV_PYTHON_DOWNLOADS = "never";
 }
