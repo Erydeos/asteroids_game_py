@@ -42,6 +42,7 @@ def main():
 
         for rock in asteroids:
             if rock.collides_with(player):
+                log_event("player_hit")
                 print("Game over!")
                 sys.exit()
 
